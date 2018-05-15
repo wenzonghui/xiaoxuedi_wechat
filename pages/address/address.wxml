@@ -1,0 +1,10 @@
+<view>
+   <view class='bg'>
+    <view class='view2'>
+      <text>木鱼 \t 15320202224 \n</text>
+      <image class='ok' src='/images/ok.svg'></image>
+      <text>西南大学桃园</text>
+    </view>
+  </view> 
+  <button class="add" bindtap="content">新增收货地址</button>
+</view>

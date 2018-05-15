@@ -1,0 +1,11 @@
+<view class='container'>
+  <image class="profilePhoto" src="/images/man.png"></image>
+</view>
+<view>
+  <text class='name'>{{name}}</text>
+  <text class='name'>木鱼</text>
+</view>
+<view class="itemView" bindtap='content'>
+  <image src='/images/air.svg' class='air'></image>收货地址
+  <input class="address" name="address"  disabled='true'/>
+</view>

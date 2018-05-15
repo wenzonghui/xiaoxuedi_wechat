@@ -1,0 +1,91 @@
+/* pages/enterThePage/enterThePage.wxss */
+.itemView{
+  margin-left: 48rpx;
+  height: 120rpx;
+  border-bottom: 2rpx solid #F5F5F5;
+
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.itemView1{
+  border-top: 2rpx solid #F5F5F5;
+}
+input{
+height: 44rpx; 
+} 
+.section {
+  margin-left: 48rpx;
+  margin-top: 35rpx;
+  height: 244rpx;
+}
+textarea {
+  margin-top: 10rpx;
+  color: 7E7E7E;
+  font-size: 32rpx;
+  height: 120rpx; 
+}
+.text {
+  margin-top: 122rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #7E7E7E;
+  display: flex;
+  justify-content: center;
+}
+.placeholder {
+  font-size: 24rpx;
+  color: #7E7E7E;
+  height: 246rpx;
+}
+.submit {
+  background-color: #FFDE00;
+  width: 420rpx;
+  height: 100rpx;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40rpx;
+}
+
+button::after{
+border: none;
+}
+.air{
+  width: 75.6rpx;
+  height: 61.25rpx;
+  margin-left: -6rpx;
+}
+.go {
+  width: 20rpx;
+  height: 34rpx;
+  margin-left: 438rpx;
+}
+.bg {
+  background-color: white;
+  margin-top: -25rpx;
+}
+.bg1 {
+  background-color: #F4F4F4;
+}
+.mt {
+  height: 244rpx;
+}
+.mt1 {
+  padding-top: 42rpx;
+}
+picker {
+  width: 100%;
+}
+.picker {
+  /* position: fixed; */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10rpx;
+
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #7E7E7E;
+  letter-spacing: 0.19px;
+}

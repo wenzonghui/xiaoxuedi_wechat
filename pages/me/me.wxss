@@ -1,0 +1,35 @@
+.profilePhoto {
+  width: 180rpx;
+  height: 180rpx;
+  margin-top: 40rpx;
+}
+.container {
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.itemView{
+  margin-left: 48rpx;
+  height: 152rpx;
+  border-top: 2rpx solid #F5F5F5;
+  border-bottom: 2rpx solid #F5F5F5;
+  margin-top: 76rpx;
+
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.name {
+  margin-top: 15rpx;
+  font-family: PingFangSC-Regular;
+  display: flex;
+  justify-content: center;
+}
+.air{
+  width: 75.6rpx;
+  height: 61.25rpx;
+}
+page {
+  background-color: white;
+}

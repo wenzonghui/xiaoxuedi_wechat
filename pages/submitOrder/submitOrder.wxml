@@ -1,0 +1,17 @@
+<view class='container'>
+  <view class="itemView">配送费
+    <text class='text3'>5元</text>
+  </view>
+  <view class="itemView1">
+  </view>
+  <view class="">
+    <image class='weChatImage' src='/images/weChatPay.svg'></image>
+    <text class='text'>微信支付</text>
+    <image class='ok' src='/images/ok.svg'></image>
+  </view>
+  <view>
+    <text class='text1'>需支付</text>
+    <text class='text2'>￥7.0</text>
+    <button class="pay" bindtap="content">支付</button>
+  </view>
+</view>

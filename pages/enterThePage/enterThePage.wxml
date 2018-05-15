@@ -1,0 +1,37 @@
+<!--pages/enterThePage/enterThePage.wxml-->
+<view class='container'>
+  <view class='bg'>
+    <view><input class='bg1' disabled='true' /></view>
+    <view class="itemView itemView1" bindtap='content'>
+      <image src='/images/air.svg' class='air'></image>收货地址
+      <image src='/images/go.png' class='go'></image>
+    </view>
+
+    <view class="itemView itemView2">  
+      <picker bindchange="selectSchool" value="{{index}}" range="{{array1}}">  
+        选择学校区域<view class="picker">{{array1[index]}}</view>  
+      </picker>  
+    </view>
+
+    <view class="itemView itemView2">  
+      <picker bindchange="selectExpress" value="{{index}}" range="{{array2}}">  
+        选择快递公司<view class="picker">{{array2[index]}}</view>  
+      </picker>  
+    </view> 
+    
+  </view>
+  <view class='bg'>
+    <view class="section">
+      <view class='mt'>
+        <input disabled='true'/>
+        <text>备注</text>
+        <textarea placeholder="取件码、信息/其他注意事项" placeholder-class='placeholder' focus="{{focus}}" />
+      </view>
+    </view>
+  </view>
+  <view class="section2">
+    <text class='text'>送达时间为最快送达</text>
+    <button class="submit" bindtap='content1'>提交</button>       
+    <!-- <button open-type="contact">客服</button> -->
+  </view>
+</view>

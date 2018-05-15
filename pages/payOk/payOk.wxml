@@ -1,0 +1,12 @@
+<view  class='bg'> 
+  <view class='container'>
+      <image class="payOk" src="/images/payOk.svg"></image>
+  </view>
+  <view>
+    <text class='payOkText'>支付完成</text>
+    <text class='text'>配送员会尽快与您联系</text>
+  </view>
+  <view class="section">
+    <button class="returnHome" bindtap="content">返回主页</button>       
+  </view>
+</view>

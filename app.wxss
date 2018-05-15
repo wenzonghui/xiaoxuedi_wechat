@@ -1,0 +1,12 @@
+page{
+  background-color: #F4F4F4;
+  height:100%;
+}
+.container1{
+  background: #F4F4F4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

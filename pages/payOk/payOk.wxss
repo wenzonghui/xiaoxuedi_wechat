@@ -1,0 +1,44 @@
+.payOk {
+  width: 188rpx;
+  height: 188rpx;
+  margin-top: 150rpx;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.returnHome {
+  background-color: #FFDE00;
+  width: 420rpx;
+  height: 100rpx;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 398rpx;
+  
+}
+button::after{
+border: none;
+}
+.payOkText {
+  font-family: PingFangSC-Regular;
+  font-size: 40rpx;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  margin-top: 66rpx;
+}
+.text {
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  color: #FF4954;
+  display: flex;
+  justify-content: center;
+  margin-top: 44rpx;
+}
+.bg {
+  height: 100%;
+  background-color: white;
+}

@@ -1,0 +1,45 @@
+<view>  
+    <form bindsubmit="formSubmit" bindreset="formReset">  
+      <view class='bg'>
+         <view class="section itemView itemView1"> 姓名 
+            <view class='form-group'>  
+            <input type="text" class="input-text" name="name" placeholder-class='placeholder' placeholder="请填写收货人姓名" />  
+            </view>      
+        </view>
+ 
+        <view class="section itemView">  电话  
+             <input type="text" class="form-group input-text" name="phone" placeholder-class='placeholder' placeholder="请填写收货人手机号" />  
+        </view>
+
+        <view class="section itemView"> 地址 
+            <view class='form-group'>  
+                <input type="text" class="input-text" name="add" placeholder-class='placeholder' placeholder="请填写地址" /> 
+                <!-- <slider name="age" show-value ></slider>   -->
+            </view>      
+        </view>
+      </view>
+        <view class="section btn">  
+            <button class='submit' formType="submit" bindtap='ok'>完成</button>  
+            <!-- <button formType="reset">清空</button>   -->
+        </view>  
+    </form>  
+</view>  
+
+
+
+
+     <!-- 黑框提示并消失 -->  
+    <!-- <toast hidden="{{toast1Hidden}}" bindchange="toast1Change">  
+        {{notice_str}}  
+    </toast>   -->
+    <!-- 确认框 及 提示框 -->  
+    <!-- <view class="page__bd">  
+        <modal title="确认" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" mask bindconfirm="confirm_one" bindcancel="cancel_one">  
+            确认提交么？  
+        </modal> 
+
+        <modal class="modal" hidden="{{modalHidden2}}" no-cancel bindconfirm="modalChange2" bindcancel="modalChange2">  
+            <view> 提示 </view>  
+            <view> 清空成功 </view>  
+        </modal>  
+    </view>   -->

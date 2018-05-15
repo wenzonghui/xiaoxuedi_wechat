@@ -1,0 +1,80 @@
+.container {
+  height: 100%;
+  background-color: white;
+}
+.itemView{
+  margin-left: 48rpx;
+  height: 120rpx;
+  border-top: 2rpx solid #F5F5F5;
+
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.itemView1{
+  height: 120rpx;
+  border-top: 2rpx solid #F5F5F5;
+  border-bottom: 1px solid #000;
+  
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.weChatImage {
+  width: 68rpx;
+  height: 68rpx;
+  margin-left: 58rpx;
+  margin-right: 30rpx;
+  margin-top: 48rpx;
+}
+.ok {
+  width: 52rpx;
+  height: 52rpx;
+  position: fixed;
+  right: 32rpx;
+  margin-top: 54rpx;
+}
+.text {
+  font-size: 36rpx;
+  position: fixed;
+  margin-top: 54rpx;
+}
+.text1 {
+  position: fixed;
+  bottom: 36rpx;
+  left: 84rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  color: #000000;
+}
+.text2 {
+  position: fixed;
+  bottom: 36rpx;
+  left: 200rpx;
+  color: #FF4954;
+  font-size: 28rpx;
+}
+.text3 {
+  position: fixed;
+  top: 32rpx;
+  right: 26rpx;
+  font-size: 36rpx;
+}
+.pay {
+  font-family: PingFangSC-Semibold;
+  font-size: 28rpx;
+  color: #000000;
+  background-color: #FFDE00;
+  width: 256rpx;
+  height: 100rpx;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+button::after{
+border: none;
+}
